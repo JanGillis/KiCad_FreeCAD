@@ -7,12 +7,7 @@ module.exports = {
       { text: 'Company', link: 'https://www.oost-vlaanderen.be/leren/onderwijs/overzicht-provincialescholen/secundair-onderwijs/richtpunt-campus-zottegem.html' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [
-      ['/', 'Home'],
-      ['/ki-cad/', 'KiCad'],
-      ['/free-c-a-d/', 'FreeCAD'],
-      ['/freecad/', 'Freecad']
-    ],
+    sidebar: [['/', 'Home'], ['/ki-cad/', 'KiCad'], ['/free-c-a-d/', 'FreeCAD']],
     repo: 'https://github.com/JanGillis/KiCad_FreeCAD',
     docsDir: 'docs',
     docsBranch: 'master'
