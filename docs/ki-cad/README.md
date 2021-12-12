@@ -97,6 +97,51 @@ Plaats de componenten zodanig dat er zo min mogelijk ratsnets kruisen. Verander 
 
 ## Tracks
 
-Teken de PCB tracks (traces) met een geschikt trace breedte.
+Teken de PCB tracks (traces) met een geschikte trace breedte.
 
 ![Track breedte](./assets/traceBreedte.png)
+
+Tekenen alle pcb banen behalve GND met het Route Tracks commando (Shift+X).
+
+![Alle nets behalve GND](./assets/AlleNetsGetekend.png)
+
+## Edge cut
+
+Teken een board outline op de edge cuts layer met de Add graphics line tool.
+
+![Add graphics line tool](./assets/Polyline.png)
+
+Teken een grondvlak op de F.Cu layer met de Add filled zones tool. Teken het grondvlak net iets groter dan de board outline.
+
+![Add filled zones tool](./assets/filled.png)
+
+Gebruik de instellingen weergegeven op de volgende figuur.
+
+![Add filled zones tool](./assets/filled_prop.png)
+
+## Resultaat
+
+![Add filled zones tool](./assets/filled_zone.png)
+
+::: warning
+Om de pcb te kunnen importeren in FreeCAD en terug te kunnen exporten moet er een grid origin worden geplaatst in de board outline.
+
+![Grid origin](./assets/gridOrigin.png)
+:::
+
+# 3D viewer
+
+Controleer de layout in de 3D viewer van Pcbnew.
+
+![Grid origin](./assets/Dobbelsteen3D.png)
+
+Voeg een dip socket toe aan de 3D weergave van Attiny85. Open hiervoor de properties van de Attiny85 component. Ga naar de 3D Settings en voeg een 8 pin socket toe uit de ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step folder.
+
+![Grid origin](./assets/Socket.png)
+
+Verplaats de dip-8 verpakking, zodat de verpakking zich in de socket bevindt.
+
+![Grid origin](./assets/Socket_dip.png)
+
+
+
