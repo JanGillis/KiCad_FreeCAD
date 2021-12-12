@@ -4,20 +4,22 @@ title: Home
 
 # KiCad_FreeCAD
 
-> Cursus KiCad &amp; FreeCAD
+## Inleiding
 
-![Success](./assets/success.png)
+[KiCad](https://www.kicad.org/) is een open source cross platform [EDA](https://en.wikipedia.org/wiki/Electronic_design_automation) pakket. KiCad beschikt over een programma om elektronische schema's te tekenen. Een programma om een PCB layout te maken en beschikt over een 3D viewer.
 
-This is the home page of your VuePress course website.
+[FreeCAD](https://www.freecadweb.org/) is een open source 3D CAD programma waarmee u parametrische modellen kunt ontwerpen.
 
-Feel free to style it as you wish.
+Beide programma's kunnen via de [KicadStepUp Workbench](https://wiki.freecadweb.org/KicadStepUp_Workbench) samenwerken.
 
-Some tips on how to start:
+## KiCad
 
-* Refactor the `README.md` in the root of this project. It is the first page users encounter when visiting your GitHub repository.
-* Fill in this `README.md` with an introduction to your course.
-* Start a development server using `npm run docs:dev`
-* Generate pages using `yo innovet-vuepress-course:page`
-* Setup your [Netlify site](https://www.netlify.com/)
-* Commit and push your changes to GitHub on a regular base
-* Navigate to your Netlify domain url and check if the site deployed successfully.
+Deze tutorial maakt gebruik van versie 5.1.12
+
+## FreeCAD
+
+Deze tutorial maakt gebruik van versie 0.19
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

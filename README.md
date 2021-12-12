@@ -1,37 +1,21 @@
 # KiCad_FreeCAD
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3a51368e-f3d9-4517-9070-0f62719d9167/deploy-status)](https://app.netlify.com/sites/kicad-freecad/deploys)
 
-Welcome to your new VuePress course. This is the README file that will display on GitHub. Please feel free to change this information. This file should reflect the content of this course.
+## Inleiding
 
-## Development
+[KiCad](https://www.kicad.org/) is een open source cross platform [EDA](https://en.wikipedia.org/wiki/Electronic_design_automation) pakket. KiCad beschikt over een programma om elektronische schema's te tekenen. Een programma om een PCB layout te maken en beschikt over een 3D viewer.
 
-Make sure you have Node.js installed and the following packages:
+[FreeCAD](https://www.freecadweb.org/) is een open source cross platform 3D CAD programma waarmee u parametrische modellen kunt ontwerpen.
 
-```bash
-npm install -g vuepress
-npm install -g yo
-npm install -g generator-innovet-vuepress-course
-```
+Beide programma's kunnen via de [KicadStepUp Workbench](https://wiki.freecadweb.org/KicadStepUp_Workbench) samenwerken.
 
-### Running a Development Server
+## KiCad
 
-To start a local development server execute the following command inside the root folder of this project:
+Deze tutorial maakt gebruik van versie 5.1.12
 
-```bash
-npm run docs:dev
-```
+## FreeCAD
 
-This will start a local server and automatically convert the markdown files to html files.
-
-Open a browser to the web address shown by the `npm run` command. Most typically this is [http://localhost:8080](http://localhost:8080).
-
-### Generating Pages
-
-A page is like a new chapter in your course. You can generate a new page by using the `innovet-vuepress-course` generator:
-
-```bash
-yo innovet-vuepress-course:page
-```
+Deze tutorial maakt gebruik van versie 0.19
 
 ## License
 
