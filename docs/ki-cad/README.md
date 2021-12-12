@@ -53,23 +53,23 @@ Voeg voor elke component een waarde toe. Je kan dit doen door met je muiscursor 
 
 Elk symbool in een schema moet een naam krijgen. Deze naam wordt de reference designator genoemd. Reference designator maken het veel gemakkelijker om over de verschillende componenten in het schema te praten. Het is een stuk gemakkelijker om R1, R2, Q1 te zeggen dan te verwijzen naar de tweede 1k weerstand van links in de schakeling in de rechterhoek. De reference designator is ook handig voor het koppelen van het schema naar de layout en vice versa en kan ook als tekst naast de component footprint op de silkscreen geplaatst worden. Zie de [Wikipedia Reference designator](https://en.wikipedia.org/wiki/Reference_designator) voor een lijst van veelgebruikte aanduidingen. 
 
-KiCad maakt automatische de reference designator aan via de annotate schematic functie.
+KiCad maakt automatisch de reference designator aan via de annotate schematic functie.
 
 ![Reference designator](./assets/referenceDesignator.png)
 
 ![Annotate schematic](./assets/annotate.png)
 
-## Footprints
+# Footprints
 
 Voeg voor elk symbool een footprint toe.
 
 ![Footprint toevoegen](./assets/footprints.png)
 
-### Demonstratie footprints toekennen
+## Demonstratie footprints toekennen
 
 [![Footprints toevoegen aan symbolen](http://img.youtube.com/vi/Wyey4fHDD3Q/0.jpg)](http://www.youtube.com/watch?v=Wyey4fHDD3Q "Footprints toevoegen")
 
-### Nieuwe footprint
+## Nieuwe footprint
 
 Voor de batterijhouder moet er een nieuwe footprint gemaakt worden. Doe dit via de footprint editor.
 
@@ -77,7 +77,26 @@ Voor de batterijhouder moet er een nieuwe footprint gemaakt worden. Doe dit via 
 
 [![Nieuwe footprint](./assets/batteryholder.png)](http://www.youtube.com/watch?v=HeSDCxtcB-A "Nieuwe footprint CR2032 batterijhouder")
 
-
-### Overzicht footprint
+## Overzicht footprint
 
 ![Footprint editor](./assets/footprintEditor_Symbols.png)
+
+# Layout
+
+Open de layout editor Pcbnew.
+
+![Pcbnew](./assets/PCBnew.png)
+
+Importeer de componenten van het schema in de layout via Update PCB from schematic.
+
+![Import netlist](./assets/GetNetlist.png)
+
+Plaats de componenten zodanig dat er zo min mogelijk ratsnets kruisen. Verander desnoods de aansluitingen naar de Attiny85.
+
+![Componenten geplaatst](./assets/ratsnetsBeforeAdjustmentSchematic.png)
+
+## Tracks
+
+Teken de PCB tracks (traces) met een geschikt trace breedte.
+
+![Track breedte](./assets/traceBreedte.png)
