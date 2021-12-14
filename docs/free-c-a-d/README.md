@@ -16,16 +16,22 @@ Kies de KicadStepUp workbench.
 
 ![KicadStepUp WB](./assets/workbench.png)
 
-Na het selecteren van de KicadStepUp workbench kan er via het menu Edit->preferences de juiste instellingen worden ingesteld. Voeg eventueel extra 3D folder locaties toe. Selecteer bij de PCB placement de Grid Origin optie, zoals weergegeven in de volgende figuur.
+Na het selecteren van de KicadStepUp workbench kan er via het menu Edit->preferences de juiste instellingen worden ingesteld. Voeg eventueel extra 3D folder locaties toe. Selecteer bij de pcb placement de Grid Origin optie, zoals weergegeven in de volgende figuur.
 
 ![KicadStepUp WB](./assets/KiCADsettings.png)
 
-## PCB bestand laden
+## pcb bestand laden
 
-Laad het PCB bestand via het "load Kicad PCB Board and Parts" icon.
+Laad het pcb bestand via het "load Kicad PCB Board and Parts" icon.
 
-![Load PCB bestand](./assets/LoadKicadPCB.png)
+![Load pcb bestand](./assets/LoadKicadPCB.png)
 
-Na het inladen van het PCB bestand krijg je een melding over de specificaties en plaatsing van de PCB.
+Na het inladen van het pcb bestand krijg je een melding over de specificaties en plaatsing van de pcb.
 
-![Load PCB bestand](./assets/Inladen.png)
+![Load pcb bestand](./assets/Inladen.png)
+
+## Board outline
+
+Je kan in FreeCAD de boardoutline van de pcb aanpassen
+
+[![Boardoutline aangepast in FreeCAD](https://img.youtube.com/vi/voKCaFv-bug/0.jpg)](https://www.youtube.com/watch?v=voKCaFv-bug "Aanpassen boardoutline")
