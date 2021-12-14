@@ -47,7 +47,7 @@ Voor onderstaande shortcuts moet de muiscursor boven het symbool staan.
 
 ## Waarde
 
-Voeg voor elke component een waarde toe. Je kan dit doen door met je muiscursor boven een symbool te gaan staan en op v te drukken.
+Voeg voor elke component de juiste waarde toe. Je kan dit doen door met je muiscursor boven een symbool te gaan staan en op v te drukken.
 
 ### Reference designator
 
@@ -135,13 +135,17 @@ Controleer de layout in de 3D viewer van Pcbnew.
 
 ![Grid origin](./assets/Dobbelsteen3D.png)
 
-Voeg een dip socket toe aan de 3D weergave van Attiny85. Open hiervoor de properties van de Attiny85 component. Ga naar de 3D Settings en voeg een 8 pin socket toe uit de ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step folder.
+Voeg een dip socket toe aan de 3D weergave van de Attiny85. Open hiervoor de properties van de Attiny85 component. Ga naar de 3D Settings en voeg een 8 pin socket toe uit de ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step folder.
 
 ![Grid origin](./assets/Socket.png)
 
 Verplaats de dip-8 verpakking, zodat de verpakking zich in de socket bevindt.
 
 ![Grid origin](./assets/Socket_dip.png)
+
+## 3D weergave
+
+![Grid origin](./assets/Dobbelsteen3D_volledig.png)
 
 
 
