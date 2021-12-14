@@ -25,3 +25,7 @@ Na het selecteren van de KicadStepUp workbench kan er via het menu Edit->prefere
 Laad het PCB bestand via het "load Kicad PCB Board and Parts" icon.
 
 ![Load PCB bestand](./assets/LoadKicadPCB.png)
+
+Na het inladen van het PCB bestand krijg je een melding over de specificaties en plaatsing van de PCB.
+
+![Load PCB bestand](./assets/Inladen.png)

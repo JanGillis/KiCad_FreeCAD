@@ -67,7 +67,7 @@ Voeg voor elk symbool een footprint toe.
 
 ## Demonstratie footprints toekennen
 
-[![Footprints toevoegen aan symbolen](http://img.youtube.com/vi/Wyey4fHDD3Q/0.jpg)](http://www.youtube.com/watch?v=Wyey4fHDD3Q "Footprints toevoegen")
+[![Footprints toevoegen aan symbolen](https://img.youtube.com/vi/Wyey4fHDD3Q/0.jpg)](https://www.youtube.com/watch?v=Wyey4fHDD3Q "Footprints toevoegen")
 
 ## Nieuwe footprint
 
@@ -75,7 +75,7 @@ Voor de batterijhouder moet er een nieuwe footprint gemaakt worden. Doe dit via 
 
 ![Footprint editor](./assets/footprintEditor.png)
 
-[![Nieuwe footprint](./assets/batteryholder.png)](http://www.youtube.com/watch?v=HeSDCxtcB-A "Nieuwe footprint CR2032 batterijhouder")
+[![Nieuwe footprint](./assets/batteryholder.png)](https://www.youtube.com/watch?v=HeSDCxtcB-A "Nieuwe footprint CR2032 batterijhouder")
 
 ## Overzicht footprint
 
