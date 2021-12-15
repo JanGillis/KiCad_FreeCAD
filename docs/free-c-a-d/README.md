@@ -32,6 +32,6 @@ Na het inladen van het pcb bestand krijg je een melding over de specificaties en
 
 ## Board outline
 
-Je kan in FreeCAD de boardoutline van de pcb aanpassen
+Je kan in FreeCAD de boardoutline van de pcb aanpassen. In de volgende video wordt er een voorbeeld gegeven van de mogelijkheid om de boardoutline aan te passen in FreeCAD en te exporteren naar Kicad. In Kicad wordt dan het kopervlak geüpdatet en opgeslagen, zodat het terug in FreeCAD kan worden geïmporteerd.
 
 [![Boardoutline aangepast in FreeCAD](https://img.youtube.com/vi/voKCaFv-bug/0.jpg)](https://www.youtube.com/watch?v=voKCaFv-bug "Aanpassen boardoutline")
